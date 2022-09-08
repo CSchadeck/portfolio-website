@@ -52,7 +52,7 @@ export default function Experience() {
 
             <VerticalTimeline lineColor="#3e497a">
                 <VerticalTimelineElement className="vertical-timeline-element--(ENTER TOPIC: ie: education, work experiance"
-                    date="2006-2017"
+                    date=" June 2006- September 2017"
                     iconStyle={{ background: "#3e496a", color: "#fff" }}
                     icon={< MdOutlineWork />}>
                     <h3 className="vertical-timeline-element-title"> 24Hour Fitness/New York Health and Raquet Club, New York, NY </h3>
