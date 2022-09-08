@@ -1,33 +1,32 @@
-import image1 from "../assets/placeholderimg.png";
-import image2 from "../assets/snailPlaceHolder.png";
+import ZenASketch from "../assets/ZenASketch.png"
+import CTravelJournal from "../assets/CTravelJournal.png"
+import BuddyandButtercup from "../assets/BuddyandButtercup.png"
 //import nameOfFile from "../assets/nameOfFile.png"
 
 
 export const ProjectList = [
-{
-    name:"Name of Website1",
-    image: image1,
-    skills:"Javascript, Ruby, Etc"
+    {
+        name: "Zen-A-Sketch",
+        image: ZenASketch,
+        skills: "Javascript, HTML, CSS",
+        link:"https://zen-a-sketch.netlify.app/"
 
-},
-{
-    name:"Name of Website2",
-    image: image2,
-    skills:"Javascript, Ruby, Etc"
+    },
+    {
+        name: "Corey's Travel Journey",
+        image: CTravelJournal,
+        skills: "React-JS, HTML, CSS, ",
+        link:"https://coreystraveljournel.netlify.app/"
 
-},
-{
-    name:"Name of Website3",
-    image: image1,
-    skills:"Javascript, Ruby, Etc"
+    },
+    {
+        name: "Buddy and Buttercup",
+        image: BuddyandButtercup,
+        skills: "HTML, CSS, Javascript: Event Listeners only",
+        link:"https://buddyandbuttercup.netlify.app/"
 
-},
-{
-    name:"Name of Website4",
-    image: image2,
-    skills:"Javascript, Ruby, Etc"
+    },
 
-},
 
 
 ]
@@ -35,6 +34,7 @@ export const ProjectList = [
 // {
 //     name:"Name of Website",
 //     image: image1,
-//     skills:"Javascript, Ruby, Etc"
+//     skills:"Javascript, Ruby, Etc",
+//     link:""
 
 // },

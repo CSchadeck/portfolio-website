@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div className="home">
             <div className="about">
-                <h2>Hi, my name is Corey</h2>
+                <h2>Hello, my name is Corey</h2>
                 <div className="prompt"><p>I am a Software Developer with a passion for creating and learning</p>
                     <a href="https://www.linkedin.com/in/coreyschadeck" target="_blank" rel="noreferrer"><AiOutlineLinkedin /></a>
                    <a href="https://github.com/CSchadeck" target="_blank" rel="noreferrer"> <AiOutlineGithub /></a>

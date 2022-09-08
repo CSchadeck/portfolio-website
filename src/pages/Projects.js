@@ -10,7 +10,12 @@ export default function Projects() {
             <h1>My Personal Projects</h1>
             <div className="projectList"></div>
             {ProjectList.map((project, idx) => {
-                return <ProjectItem key={idx} id={idx} name={project.name} image={project.image} />;
+                return <ProjectItem
+                    key={idx}
+                    id={idx}
+                    name={project.name}
+                    image={project.image}
+                    link={project.link} />;
             })};
         </div>
     )

@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .projects .projectTitle {
@@ -47,6 +48,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .projectItem h1 {
