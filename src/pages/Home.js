@@ -11,7 +11,7 @@ export default function Home() {
         <div className="home">
             <div className="about">
                 <h2>Hello, my name is Corey</h2>
-                <div className="prompt"><p>I am a Software Developer with a passion for creating and learning</p>
+                <div className="prompt"><p>I am a Software Developer with a passion for creating and learning. I have a successful  background in Management, health and fitness. I look forward to working with a company who promotes growth and creative thinking. </p>
                     <a href="https://www.linkedin.com/in/coreyschadeck" target="_blank" rel="noreferrer"><AiOutlineLinkedin /></a>
                    <a href="https://github.com/CSchadeck" target="_blank" rel="noreferrer"> <AiOutlineGithub /></a>
                    <a href="mailto:corey@schadeck.com">< AiOutlineMail /> </a>
