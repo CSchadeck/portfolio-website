@@ -7,14 +7,14 @@
 
 .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(70vh - 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 
-    color: #e0d7d7;
+    color: #f0f0f0
 }
 
 .about h2 {
@@ -43,7 +43,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: #007a7b;
+    background: #007987;
 }
 
 .skills h1 {
