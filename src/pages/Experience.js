@@ -9,6 +9,16 @@ import { MdOutlineWork } from "react-icons/md";
 export default function Experience() {
     return (
         <div className="experience">
+            <VerticalTimeline lineColor="#3e497a">
+                <VerticalTimelineElement className="vertical-timeline-element--education"
+                    date="2022-Present"
+                    iconStyle={{ background: "#3e496a", color: "#fff" }}
+                    icon={< IoSchoolSharp />}>
+                    <h3 className="vertical-timeline-element-title">Scrum Alliance, New York, NY </h3>
+                    <p>Certified Scrum Master</p>
+                </VerticalTimelineElement>
+            </VerticalTimeline>
+
 
             <VerticalTimeline lineColor="#3e497a">
                 <VerticalTimelineElement className="vertical-timeline-element--education"
@@ -79,6 +89,19 @@ export default function Experience() {
  <VerticalTimeline lineColor="#3e497a">
 <VerticalTimelineElement className="vertical-timeline-element--(ENTER TOPIC: ie: education, work experiance"
     date="19??-20??"
+    iconStyle={{ background: "#3e496a", color: "#fff" }}
+    icon={< SUPPLY ICON />}>
+    <h3 className="vertical-timeline-element-title">Randome School/College, city, state </h3>
+    <p>Associates Degree</p>
+</VerticalTimelineElement>
+</VerticalTimeline>
+                         */
+
+/*TEMPLATE FOR VERTICAL TIMELINE ELEMENT
+
+ <VerticalTimeline lineColor="#3e497a">
+<VerticalTimelineElement className="vertical-timeline-element--education"
+    date="2022-Present"
     iconStyle={{ background: "#3e496a", color: "#fff" }}
     icon={< SUPPLY ICON />}>
     <h3 className="vertical-timeline-element-title">Randome School/College, city, state </h3>
